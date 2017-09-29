@@ -20,7 +20,7 @@ class CollectionViewController: UICollectionViewController, UICollectionViewDele
         collectionView?.register(UICollectionReusableView.self, forSupplementaryViewOfKind: UICollectionElementKindSectionHeader, withReuseIdentifier: headerReuseIdentifier)
         collectionView?.backgroundColor = .white
         
-        title = "A Fucking CollectionView"
+        title = "Collection View"
         
     }
     
